@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+
+:root {
+  --header-font: "Inter", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --black: #000;
+  --white: #fff;
+  --primary-color: #2563ea;
+  --navy-blue: #111828;
+}
+
+/* hero */
+
+#hero {
+  width: 100%;
+  height: calc(100vh - 83px);
+  display: flex;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  color: var(--black);
+  font-family: var(--header-font);
+  font-weight: 700;
+}
+
+.hero-content h1 span {
+  color: var(--primary-color);
+}
+
+.hero-content p {
+  font-size: 1rem;
+  color: var(--black);
+  font-family: var(--primary-font);
+  margin: 20px 0 30px;
+}
+
+.hero-content .hero-btn a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--white);
+  font-family: var(--primary-font);
+  padding: 10px 35px;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  transition: 0.5s;
+}
+
+.hero-content .hero-btn a:hover {
+  color: var(--white);
+  margin-left: 10px;
+}
+
+.hero-content img {
+  width: 100%;
+}

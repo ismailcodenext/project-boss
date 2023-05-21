@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+
+:root {
+  --header-font: "Inter", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --black: #000;
+  --white: #fff;
+  --primary-color: #2563ea;
+  --navy-blue: #111828;
+}
+
+/* navbar */
+
+.navbar {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  font-family: var(--header-font) !important;
+  color: var(--black) !important;
+  margin-left: 10px;
+}
+
+.login-btn a {
+  text-decoration: none;
+  color: var(--white);
+  padding: 6px 30px;
+  background-color: var(--primary-color);
+  font-size: 1.1em;
+  margin-left: 20px;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.login-btn a:hover {
+  color: var(--white);
+}
