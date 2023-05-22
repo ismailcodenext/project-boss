@@ -20,11 +20,6 @@
 
 /* navbar */
 
-.navbar {
-  /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); */
-  box-shadow: 13px 13px 24px #f0f0f0, -13px -13px 24px #ffffff;
-}
-
 .navbar-nav .nav-link {
   font-family: var(--primary-font) !important;
   color: var(--black) !important;

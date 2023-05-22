@@ -22,7 +22,7 @@
 
 #hero {
   width: 100%;
-  height: calc(100vh - 83px);
+  height: 600px;
   display: flex;
   align-items: center;
 }
@@ -66,6 +66,16 @@
 .hero-content img {
   width: 100%;
 }
+@media screen and (max-width: 990px) {
+  .hero-content h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-content {
+    margin: 20px;
+  }
+}
 
 /* domain */
 
@@ -80,7 +90,7 @@
 
 .domain-items {
   background: #eff6ff;
-  box-shadow: inset 6px 6px 22px #d9e0e8, inset -6px -6px 22px #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   height: 120px;
   padding: 10px 30px 20px;
@@ -104,35 +114,6 @@
   font-family: var(--primary-font);
 }
 
-.domain-search-box {
-  margin-bottom: 40px;
-}
-
-.domain-search-box input {
-  width: calc(100% - 100px);
-  height: 50px;
-  padding: 0 10px;
-  border: none;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-}
-
-.domain-search-box input:focus {
-  outline: none;
-}
-
-.domain-search-box .domain-search-btn {
-  height: 50px;
-  border: none;
-  padding: 0 20px;
-  background-color: var(--primary-color);
-  color: var(--white);
-  font-family: var(--primary-font);
-  font-size: 1em;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-}
-
 /* domain */
 
 /* package */
@@ -143,7 +124,7 @@
 
 .package-items {
   background: #ffffff;
-  box-shadow: inset 6px 6px 22px #e8e8e8, inset -6px -6px 22px #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
   padding: 20px 25px;
   text-align: center;
   margin-bottom: 20px;
@@ -212,7 +193,7 @@
 
 .service-items {
   background: #ffffff;
-  box-shadow: inset 6px 6px 22px #e8e8e8, inset -6px -6px 22px #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
   padding: 15px 25px;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -313,7 +294,6 @@
 /* testimonial */
 
 #testimonial {
-  background-color: #e0e0e0;
   padding: 80px 0;
 }
 
@@ -339,8 +319,9 @@
 
 .content-area {
   background: var(--white);
-  /* box-shadow: inset 6px 6px 12px #d3d3d3, inset -6px -6px 12px #ededed; */
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1) !important;
   border-radius: 6px;
+  margin: 10px;
 }
 .content {
   padding: 20px;
@@ -380,9 +361,9 @@
 }
 
 .owl-dot {
-  width: 12px !important;
-  height: 12px !important;
-  background-color: var(--white) !important;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: rgb(180, 178, 178) !important;
   display: inline-block;
   margin: 0 5px;
   border-radius: 50%;
@@ -400,3 +381,60 @@
 }
 
 /* testimonial */
+
+/* hosting data */
+
+#hosting-data {
+  padding: 50px 0 80px;
+}
+
+.hosting-data-content h1 {
+  font-family: var(--header-font);
+  font-size: 2.6em;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.hosting-data-content h1 span {
+  color: var(--primary-color);
+}
+
+.hosting-data-content p {
+  font-family: var(--primary-font);
+  color: var(--black);
+  font-size: 1em;
+  margin: 15px 0;
+}
+
+.hosting-data-content img {
+  width: 100%;
+}
+
+.hosting-data-btn {
+  margin-top: 30px;
+}
+
+.hosting-data-btn a {
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-size: 1em;
+  text-align: center;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-weight: 500;
+}
+
+.hosting-data-btn a:hover {
+  color: var(--white);
+}
+
+@media screen and (max-width: 990px) {
+  .hosting-data-content h1 {
+    font-size: 2em;
+  }
+}
+
+/* hosting data */

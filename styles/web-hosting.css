@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+
+:root {
+  --header-font: "Josefin Sans";
+  --primary-font: "Ubuntu";
+  --black: #000;
+  --white: #fff;
+  --primary-color: #2563ea;
+  --navy-blue: #111828;
+}
+
+/* web hosting hero */
+
+#web-hero {
+  width: 100%;
+  height: 60vh;
+  background: url(../images/web-hosting-hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.web-hero-content h1 {
+  color: var(--white);
+  font-size: 2.8em;
+  font-weight: 700;
+  font-family: var(--header-font);
+}
+
+.web-hero-content p {
+  color: var(--white);
+  font-size: 1em;
+  font-family: var(--primary-font);
+}
+
+/* web hosting hero */
+
+/* web hosting packages */
+
+#web-package {
+  padding: 80px 0;
+}
+
+.web-package-header h4 {
+  font-size: 1.2em;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-family: var(--primary-font);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.web-package-header h1 {
+  font-family: var(--header-font);
+  font-size: 2.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 10px 0;
+}
+
+.web-package-items {
+  background: #ffffff;
+  box-shadow: 6px 6px 24px #f0f0f0, -6px -6px 24px #ffffff;
+  padding: 25px;
+  border-radius: 30px 0 30px 30px;
+  margin: 25px;
+}
+
+.web-package-advanced {
+  background-color: #eff6ff;
+}
+
+.web-package-items h3 {
+  font-family: var(--header-font);
+  font-size: 2em;
+}
+
+.web-package-items h4 {
+  font-size: 1.3em;
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
+
+.web-package-items h4 span {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.web-package-items ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.web-package-items ul li {
+  margin: 10px 0;
+  font-family: var(--primary-font);
+}
+
+.web-package-items ul li span {
+  color: var(--primary-color);
+  margin-right: 5px;
+}
+
+.web-package-btn {
+  margin-top: 25px;
+}
+
+.web-package-btn a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  font-family: var(--primary-font);
+  padding: 8px 30px;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.web-package-btn a:hover {
+  color: var(--white);
+}
+
+/* web hosting packages */
