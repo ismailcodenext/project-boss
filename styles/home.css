@@ -77,6 +77,8 @@
   }
 }
 
+/* hero */
+
 /* domain */
 
 #domain {
@@ -382,39 +384,39 @@
 
 /* testimonial */
 
-/* hosting data */
+/* hosting switch */
 
-#hosting-data {
+#hosting-switch {
   padding: 50px 0 80px;
 }
 
-.hosting-data-content h1 {
+.hosting-switch-content h1 {
   font-family: var(--header-font);
   font-size: 2.6em;
   font-weight: 700;
   color: var(--black);
 }
 
-.hosting-data-content h1 span {
+.hosting-switch-content h1 span {
   color: var(--primary-color);
 }
 
-.hosting-data-content p {
+.hosting-switch-content p {
   font-family: var(--primary-font);
   color: var(--black);
   font-size: 1em;
   margin: 15px 0;
 }
 
-.hosting-data-content img {
+.hosting-switch-content img {
   width: 100%;
 }
 
-.hosting-data-btn {
+.hosting-switch-btn {
   margin-top: 30px;
 }
 
-.hosting-data-btn a {
+.hosting-switch-btn a {
   text-decoration: none;
   font-family: var(--primary-font);
   font-size: 1em;
@@ -427,14 +429,14 @@
   font-weight: 500;
 }
 
-.hosting-data-btn a:hover {
+.hosting-switch-btn a:hover {
   color: var(--white);
 }
 
 @media screen and (max-width: 990px) {
-  .hosting-data-content h1 {
+  .hosting-switch-content h1 {
     font-size: 2em;
   }
 }
 
-/* hosting data */
+/* hosting switch */
