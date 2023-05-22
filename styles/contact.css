@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+
+:root {
+  --header-font: "Josefin Sans";
+  --primary-font: "Ubuntu";
+  --black: #000;
+  --white: #fff;
+  --primary-color: #2563ea;
+  --navy-blue: #111828;
+}
+
+/* hero */
+#hero {
+  height: 50vh;
+  background-image: url("/images/server-room.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  font-family: var(--primary-font);
+  color: white;
+}
+
+/* hero */
+
+#contact-form {
+  padding: 80px 0;
+}
+
+.image img {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.contact-form {
+  width: 80%;
+}
+
+.contact-btn p a {
+  background-color: var(--primary-color);
+  padding: 10px 40px;
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-family: var(--primary-font);
+}
+
+.contact-form input {
+  box-shadow: inset 6px 6px 22px #e8e8e8, inset -6px -6px 22px #ffffff;
+  border: none;
+  padding: 10px;
+}
+
+.contact-form input:focus {
+  outline: none;
+}
+
+.contact-form textarea {
+  resize: none;
+  border-radius: 5px;
+  box-shadow: inset 6px 6px 22px #e8e8e8, inset -6px -6px 22px #ffffff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-form textarea:focus {
+  outline: none;
+}
