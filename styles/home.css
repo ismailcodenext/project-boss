@@ -71,7 +71,7 @@
 
 #domain {
   background: #eff6ff;
-  padding: 30px 20px;
+  padding: 30px 20px 10px;
 }
 
 #domain a {
@@ -80,10 +80,11 @@
 
 .domain-items {
   background: #eff6ff;
-  box-shadow: 5px 5px 14px #d7dde6, -5px -5px 14px #ffffff;
+  box-shadow: inset 6px 6px 22px #d9e0e8, inset -6px -6px 22px #ffffff;
   border-radius: 6px;
   height: 120px;
   padding: 10px 30px 20px;
+  margin-bottom: 20px;
 }
 
 .domain-items h3 {
@@ -98,6 +99,9 @@
 .domain-items p {
   margin-bottom: 0;
   text-decoration: none;
+  font-size: 1.5em;
+  color: var(--black);
+  font-family: var(--primary-font);
 }
 
 .domain-search-box {
@@ -105,6 +109,7 @@
 }
 
 .domain-search-box input {
+  width: calc(100% - 100px);
   height: 50px;
   padding: 0 10px;
   border: none;
@@ -120,7 +125,6 @@
   height: 50px;
   border: none;
   padding: 0 20px;
-  display: inline-block;
   background-color: var(--primary-color);
   color: var(--white);
   font-family: var(--primary-font);
@@ -130,3 +134,188 @@
 }
 
 /* domain */
+
+/* services */
+
+#services {
+  padding: 80px 0;
+}
+
+.service-header h4 {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.1em;
+  color: var(--primary-color);
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.service-header h1 {
+  font-family: var(--header-font);
+  font-size: 2.5em;
+  color: var(--black);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-items {
+  background: #ffffff;
+  box-shadow: inset 6px 6px 22px #e8e8e8, inset -6px -6px 22px #ffffff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service-items p {
+  margin-bottom: 0;
+}
+
+.service-items p i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 1.3em;
+  background-color: var(--primary-color);
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.service-items h4 {
+  font-size: 1.5em;
+  color: var(--black);
+  font-family: var(--header-font);
+}
+
+@media screen and (max-width: 1400px) {
+  .service-items {
+    height: 250px;
+  }
+  .service-items h4 {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .service-items {
+    height: 280px;
+    padding: 15px;
+  }
+  .service-items h4 {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .service-header h1 {
+    font-size: 2em;
+  }
+  .service-items {
+    height: 220px;
+    padding: 15px 25px;
+  }
+  .service-items h4 {
+    font-size: 1.3em;
+  }
+}
+
+/* services */
+
+/* testimonial */
+
+#testimonial {
+  background-color: #e0e0e0;
+  padding: 80px 0;
+}
+
+.testimonial-header h4 {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.1em;
+  color: var(--primary-color);
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.testimonial-header h1 {
+  font-family: var(--header-font);
+  font-size: 2.5em;
+  color: var(--black);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.content-area {
+  background: #e0e0e0;
+  box-shadow: inset 6px 6px 12px #d3d3d3, inset -6px -6px 12px #ededed;
+  border-radius: 6px;
+}
+.content {
+  padding: 20px;
+}
+
+.img-area p {
+  margin-bottom: 0;
+  text-align: center;
+  color: var(--black);
+  font-family: var(--primary-font);
+  background-color: #eff6ff;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.img-area img {
+  width: 60px !important;
+  height: 60px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img-area h4 {
+  text-align: center;
+  font-size: 1.3em;
+  color: var(--black);
+  font-family: var(--header-font);
+  margin-top: 10px;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.owl-dot {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: var(--white) !important;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.owl-dot.active {
+  background-color: var(--navy-blue) !important;
+}
+
+@media screen and (max-width: 990px) {
+  .testimonial-header h1 {
+    font-size: 2em;
+  }
+}
+
+/* testimonial */
