@@ -25,6 +25,7 @@
   height: 600px;
   display: flex;
   align-items: center;
+  margin-top: 83px;
 }
 
 .hero-content h1 {
