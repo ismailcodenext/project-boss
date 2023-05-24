@@ -109,6 +109,7 @@
   font-weight: 600;
   color: var(--white);
   font-family: var(--header-font);
+  margin-top: 20px;
 }
 
 .footer-content ul {

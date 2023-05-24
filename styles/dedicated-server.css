@@ -82,18 +82,16 @@
   background: #ffffff;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   padding: 35px 25px;
-  border-radius: 30px 0 30px 30px;
+  border-radius: 8px;
   margin: 25px;
-}
-
-.dedicated-package-advanced {
-  background-color: rgba(255, 0, 0, 0.1);
+  position: relative;
 }
 
 .dedicated-package-items h3 {
   font-family: var(--header-font);
   font-size: 2em;
   font-weight: 600;
+  text-align: center;
 }
 
 .dedicated-package-items h4 {
@@ -105,6 +103,18 @@
 .dedicated-package-items h4 span {
   font-size: 2em;
   font-weight: 500;
+}
+
+.plan-1 h4 span {
+  color: var(--primary-color);
+}
+
+.plan-2 h4 span {
+  color: #ffc107;
+}
+
+.plan-3 h4 span {
+  color: #ff2166;
 }
 
 .dedicated-package-items ul {
@@ -123,6 +133,14 @@
   margin-right: 5px;
 }
 
+.plan-2 ul li span {
+  color: #ffc107;
+}
+
+.plan-3 ul li span {
+  color: #ff2166;
+}
+
 .dedicated-package-btn {
   margin-top: 25px;
 }
@@ -139,8 +157,76 @@
   background-color: var(--primary-color);
 }
 
+.plan-2 a {
+  background-color: #ffc107;
+}
+
+.plan-3 a {
+  background-color: #ff2166;
+}
+
 .dedicated-package-btn a:hover {
   color: var(--white);
+}
+
+.ribbon-wrap {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.ribbon-wrap::before,
+.ribbon-wrap::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #f2467b;
+  position: absolute;
+  z-index: -1;
+}
+
+.plan-1 .ribbon-wrap::before,
+.plan-1 .ribbon-wrap::after {
+  background: #194fc5;
+}
+
+.plan-2 .ribbon-wrap::before,
+.plan-2 .ribbon-wrap::after {
+  background: rgba(236, 203, 37, 0.821);
+}
+
+.ribbon-wrap::before {
+  top: 0;
+  right: 35px;
+}
+
+.ribbon-wrap::after {
+  bottom: 35px;
+  left: 0;
+}
+
+.plan-1 .ribbon {
+  background: var(--primary-color);
+}
+
+.plan-2 .ribbon {
+  background: #ffc107;
+}
+
+.ribbon {
+  width: 250px;
+  font-size: 12px;
+  text-align: center;
+  background: #ff2166;
+  padding: 4px 0;
+  position: absolute;
+  color: #fff;
+  transform: rotate(-45deg);
+  right: -17%;
+  top: 24%;
 }
 
 @media screen and (max-width: 990px) {
