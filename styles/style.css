@@ -126,10 +126,11 @@
   text-decoration: none;
   color: var(--white);
   font-weight: 500;
+  transition: 0.3s;
 }
 
 .footer-content ul li a:hover {
-  color: #5e5e5e;
+  color: #c1c1c1;
 }
 
 .footer-copyright {

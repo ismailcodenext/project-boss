@@ -112,6 +112,12 @@
   font-family: var(--primary-font);
 }
 
+@media screen and (max-width: 768px) {
+  .domain-items h3 {
+    font-size: 2.4em;
+  }
+}
+
 /* domain */
 
 /* package */
@@ -264,6 +270,12 @@
   padding: 80px 0;
 }
 
+.container-box-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 8px;
+}
+
 .server-security-content h1 {
   font-size: 2.8em;
   color: var(--black);
@@ -285,6 +297,16 @@
 
 .server-security-content img {
   width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  .server-security-content h1 {
+    font-size: 2em;
+  }
+
+  .server-security-content img {
+    margin-top: 30px;
+  }
 }
 
 /* server security */
@@ -405,7 +427,7 @@
 }
 
 .hosting-switch-content img {
-  width: 100%;
+  width: 90%;
 }
 
 .hosting-switch-btn {
@@ -431,7 +453,8 @@
 
 @media screen and (max-width: 990px) {
   .hosting-switch-content h1 {
-    font-size: 2em;
+    font-size: 1.8em;
+    margin-top: 20px;
   }
 }
 
