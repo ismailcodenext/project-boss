@@ -18,12 +18,12 @@
   --navy-blue: #111828;
 }
 
-/* vps hero */
+/* dedicated hero */
 
-#vps-hero {
+#dedicated-hero {
   width: 100%;
   height: 50vh;
-  background: url(../images/vps-hero-bg.png);
+  background: url(../images/dedicated-server-hero-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,34 +32,34 @@
   margin-top: 83px;
 }
 
-.vps-hero-content h1 {
+.dedicated-hero-content h1 {
   color: var(--white);
   font-size: 2.8em;
   font-weight: 700;
   font-family: var(--header-font);
 }
 
-.vps-hero-content p {
+.dedicated-hero-content p {
   color: var(--white);
   font-size: 1em;
   font-family: var(--primary-font);
 }
 
 @media screen and (max-width: 768px) {
-  .vps-hero-content h1 {
+  .dedicated-hero-content h1 {
     font-size: 2.2em;
   }
 }
 
-/* vps hero */
+/* dedicated hero */
 
-/* vps packages */
+/* dedicated packages */
 
-#vps-package {
+#dedicated-package {
   padding: 80px 0;
 }
 
-.vps-package-header h4 {
+.dedicated-package-header h4 {
   font-size: 1.2em;
   color: var(--primary-color);
   font-weight: 400;
@@ -69,7 +69,7 @@
   letter-spacing: 3px;
 }
 
-.vps-package-header h1 {
+.dedicated-package-header h1 {
   font-family: var(--header-font);
   font-size: 2.8em;
   color: var(--black);
@@ -78,7 +78,7 @@
   font-weight: 700;
 }
 
-.vps-package-items {
+.dedicated-package-items {
   background: #ffffff;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   padding: 35px 25px;
@@ -86,48 +86,48 @@
   margin: 25px;
 }
 
-.vps-package-advanced {
-  background-color: rgba(255, 255, 0, 0.25);
+.dedicated-package-advanced {
+  background-color: rgba(255, 0, 0, 0.1);
 }
 
-.vps-package-items h3 {
+.dedicated-package-items h3 {
   font-family: var(--header-font);
-  font-size: 1.6em;
-  font-weight: 700;
+  font-size: 2em;
+  font-weight: 600;
 }
 
-.vps-package-items h4 {
+.dedicated-package-items h4 {
   font-size: 1.3em;
   font-family: var(--primary-font);
   font-weight: 400;
 }
 
-.vps-package-items h4 span {
+.dedicated-package-items h4 span {
   font-size: 2em;
   font-weight: 500;
 }
 
-.vps-package-items ul {
+.dedicated-package-items ul {
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
 }
 
-.vps-package-items ul li {
+.dedicated-package-items ul li {
   margin: 10px 0;
   font-family: var(--primary-font);
 }
 
-.vps-package-items ul li span {
+.dedicated-package-items ul li span {
   color: var(--primary-color);
   margin-right: 5px;
 }
 
-.vps-package-btn {
+.dedicated-package-btn {
   margin-top: 25px;
 }
 
-.vps-package-btn a {
+.dedicated-package-btn a {
   text-decoration: none;
   color: var(--white);
   font-weight: 500;
@@ -139,29 +139,29 @@
   background-color: var(--primary-color);
 }
 
-.vps-package-btn a:hover {
+.dedicated-package-btn a:hover {
   color: var(--white);
 }
 
 @media screen and (max-width: 990px) {
-  .vps-package-header h1 {
+  .dedicated-package-header h1 {
     font-size: 2em;
   }
 
-  .vps-package-header h4 {
+  .dedicated-package-header h4 {
     font-size: 1.1em;
   }
 }
 
-/* vps packages */
+/* dedicated packages */
 
-/* vps feature */
+/* dedicated feature */
 
-#vps-feature {
+#dedicated-feature {
   padding: 60px 0;
 }
 
-.vps-feature-header h4 {
+.dedicated-feature-header h4 {
   font-size: 1.2em;
   color: var(--primary-color);
   font-weight: 400;
@@ -171,7 +171,7 @@
   letter-spacing: 3px;
 }
 
-.vps-feature-header h1 {
+.dedicated-feature-header h1 {
   font-family: var(--header-font);
   font-size: 2.8em;
   color: var(--black);
@@ -181,7 +181,7 @@
   font-weight: 700;
 }
 
-.vps-feature-header p {
+.dedicated-feature-header p {
   text-align: center;
   font-family: var(--primary-font);
   font-size: 1em;
@@ -190,13 +190,13 @@
   margin-bottom: 40px;
 }
 
-.vps-feature-content {
+.dedicated-feature-content {
   background: #eff6ff;
   padding: 10px 30px;
   border-radius: 15px;
 }
 
-.vps-feature-items {
+.dedicated-feature-items {
   background-color: var(--white);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
@@ -204,11 +204,11 @@
   margin: 15px 0;
 }
 
-.vps-feature-items p {
+.dedicated-feature-items p {
   text-align: center;
 }
 
-.vps-feature-items i {
+.dedicated-feature-items i {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -220,7 +220,7 @@
   font-size: 1.5em;
 }
 
-.vps-feature-items h4 {
+.dedicated-feature-items h4 {
   text-align: center;
   font-family: var(--header-font);
   color: var(--black);
@@ -229,24 +229,24 @@
 }
 
 @media screen and (max-width: 990px) {
-  .vps-feature-header h1 {
+  .dedicated-feature-header h1 {
     font-size: 2em;
   }
 
-  .vps-feature-header h4 {
+  .dedicated-feature-header h4 {
     font-size: 1.1em;
   }
 }
 
-/* vps feature */
+/* dedicated feature */
 
-/* vps speed */
+/* dedicated speed */
 
-#vps-speed {
+#dedicated-speed {
   padding: 60px 0 80px;
 }
 
-.vps-speed-content h1 {
+.dedicated-speed-content h1 {
   font-size: 2.6em;
   color: var(--black);
   font-weight: 700;
@@ -254,11 +254,11 @@
   margin-bottom: 20px;
 }
 
-.vps-speed-content h1 span {
+.dedicated-speed-content h1 span {
   color: var(--primary-color);
 }
 
-.vps-speed-content p {
+.dedicated-speed-content p {
   font-size: 1em;
   color: var(--black);
   font-family: var(--primary-font);
@@ -266,25 +266,25 @@
   margin-top: 10px;
 }
 
-.vps-speed-content img {
+.dedicated-speed-content img {
   width: 100%;
 }
 
 @media screen and (max-width: 990px) {
-  .vps-speed-content h1 {
+  .dedicated-speed-content h1 {
     font-size: 2em;
   }
 
-  .vps-speed-content img {
+  .dedicated-speed-content img {
     margin-top: 40px;
   }
 }
 
-/* vps speed */
+/* dedicated speed */
 
-/* vps included package */
+/* dedicated included package */
 
-#vps-included-package {
+#dedicated-included-package {
   padding: 60px 0;
 }
 
@@ -375,7 +375,7 @@
   }
 }
 
-/* vps included package */
+/* dedicated included package */
 
 /* faq */
 

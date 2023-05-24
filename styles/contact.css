@@ -21,7 +21,7 @@
 /* hero */
 #hero {
   height: 50vh;
-  background-image: url("/images/server-room.jpg");
+  background-image: url("/images/contact-hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
