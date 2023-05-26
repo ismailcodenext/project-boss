@@ -39,7 +39,7 @@
 
 /* about hosting */
 #about {
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .about-image img {
@@ -64,7 +64,7 @@
 
 /* our about */
 #our-about {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .our-about-content {
@@ -77,6 +77,7 @@
   font-family: var(--header-font);
   font-weight: bold;
   padding-bottom: 20px;
+  margin-top: 40px;
 }
 
 .our-about-content p {
@@ -117,7 +118,7 @@
 /* We are Strong at */
 
 #we-strong {
-  padding: 80px 0;
+  padding: 60px 0 80px;
 }
 
 .we-strong-box h1 {
