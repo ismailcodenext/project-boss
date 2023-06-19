@@ -22,9 +22,9 @@
 
 #dedicated-hero {
   width: 100%;
-  height: 50vh;
-  background: url(../images/dedicated-server-hero-bg.jpg);
-  background-position: center;
+  height: 70vh;
+  background: url(../images/coupon-hero=bg.svg);
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -33,21 +33,65 @@
 }
 
 .dedicated-hero-content h1 {
-  color: var(--white);
+  color: var(--black);
   font-size: 2.8em;
   font-weight: 700;
   font-family: var(--header-font);
 }
 
+.dedicated-hero-content h1 span {
+  color: var(--primary-color);
+}
+
 .dedicated-hero-content p {
-  color: var(--white);
+  color: var(--black);
   font-size: 1em;
   font-family: var(--primary-font);
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.coupon-hero-btn {
+  margin-top: 40px;
+}
+
+.coupon-hero-btn a {
+  text-decoration: none;
+  padding: 12px 30px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.coupon-hero-btn a:hover {
+  color: var(--white);
+  background-color: #0234a1;
+}
+
+.dedicated-hero-content img {
+  width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  .dedicated-hero-content img {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .dedicated-hero-content h1 {
     font-size: 2.2em;
+  }
+
+  .coupon-hero-btn a {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .dedicated-hero-content h1 {
+    font-size: 1.7em;
   }
 }
 
@@ -72,6 +116,7 @@
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   margin-top: 30px;
+  position: relative;
 }
 
 .offer-content {
@@ -112,6 +157,7 @@
   color: var(--white);
   padding: 5px 15px;
   border-radius: 30px;
+  display: inline-block;
   font-family: var(--primary-font);
   font-weight: 500;
 }
@@ -153,6 +199,27 @@
   font-family: var(--primary-font);
   font-weight: 500;
   color: var(--primary-color);
+}
+
+@media screen and (max-width: 990px) {
+  .offer-content {
+    text-align: center;
+  }
+
+  .offer-items {
+    margin-top: 70px;
+  }
+
+  .offer-price-saving {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .offer-content-discount {
+    margin-top: 20px;
+  }
 }
 
 /* offers */
