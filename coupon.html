@@ -30,7 +30,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="./dedicated-server.html">
+        <a class="navbar-brand" href="./coupon-server.html">
           <img src="./images/logo.png" alt="logo" />
         </a>
         <button
@@ -95,7 +95,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./dedicated-server.html">Server</a>
+              <a class="nav-link" href="./coupon-server.html">Server</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact</a>
@@ -110,12 +110,12 @@
     </nav>
     <!-- navbar -->
 
-    <!-- dedicated hero -->
-    <section id="dedicated-hero">
+    <!-- coupon hero -->
+    <section id="coupon-hero">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <div class="dedicated-hero-content">
+            <div class="coupon-hero-content">
               <h1>
                 Hostinger Coupon Codes <br />
                 and <span>Promotions</span>
@@ -127,14 +127,33 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="dedicated-hero-content">
+            <div class="coupon-hero-content-img">
+              <div class="coupon-hero-offer">
+                <div class="coupon-offer-item">
+                  <div class="offer-percentage"><span>15%</span> Up to</div>
+                  <div class="offer-name">
+                    <h4>PRIMIUM</h4>
+                    <p>Web Hosting</p>
+                  </div>
+                </div>
+                <div class="coupon-offer-item"></div>
+
+                <div class="coupon-offer-item2">
+                  <div class="offer-name2">
+                    <h4>CLOUD</h4>
+                    <p>Hosting</p>
+                  </div>
+                  <div class="offer-percentage"><span>15%</span> Up to</div>
+                </div>
+                <div class="coupon-offer-item"></div>
+              </div>
               <img src="./images/coupon-hero-img.svg" alt="" />
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- dedicated hero -->
+    <!-- coupon hero -->
 
     <!-- offers -->
     <section id="offers">
@@ -180,7 +199,7 @@
                   <div class="offer-content-btn">
                     <div class="offer-content text-center">
                       <button type="button">Use coupon</button>
-                      <p>00:18:16:24</p>
+                      <p class="time"></p>
                     </div>
                   </div>
                 </div>
@@ -221,7 +240,7 @@
                   <div class="offer-content-btn">
                     <div class="offer-content text-center">
                       <button type="button">Use coupon</button>
-                      <p>00:18:16:24</p>
+                      <p class="time2"></p>
                     </div>
                   </div>
                 </div>
@@ -262,7 +281,7 @@
                   <div class="offer-content-btn">
                     <div class="offer-content text-center">
                       <button type="button">Use coupon</button>
-                      <p>00:18:16:24</p>
+                      <p class="time3"></p>
                     </div>
                   </div>
                 </div>
@@ -303,7 +322,7 @@
                   <div class="offer-content-btn">
                     <div class="offer-content text-center">
                       <button type="button">Use coupon</button>
-                      <p>00:18:16:24</p>
+                      <p class="time4"></p>
                     </div>
                   </div>
                 </div>
@@ -344,7 +363,7 @@
                   <div class="offer-content-btn">
                     <div class="offer-content text-center">
                       <button type="button">Use coupon</button>
-                      <p>00:18:16:24</p>
+                      <p class="time5"></p>
                     </div>
                   </div>
                 </div>
@@ -355,6 +374,38 @@
       </div>
     </section>
     <!-- offers -->
+
+    <!-- coupon special -->
+    <section id="coupon-special">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="coupon-special-content">
+              <img src="./images/coupon-hero-img.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="coupon-special-content">
+              <h1>
+                Special Web Hosting <br />
+                <span>Coupons</span>
+              </h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+                expedita necessitatibus dicta corrupti illo doloremque possimus
+                vero? Obcaecati architecto placeat tenetur explicabo.
+                Repellendus totam ad pariatur iusto reprehenderit aliquid
+                exercitationem.
+              </p>
+              <div class="coupon-special-btn">
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- coupon special -->
 
     <!-- faq -->
     <section id="faq">
@@ -576,5 +627,28 @@
     <!-- footer -->
 
     <!-- script -->
+    <script>
+      // date
+
+      function displayTime() {
+        let date = new Date();
+        let day = date.getDay();
+        let hour = date.getHours();
+        let min = date.getMinutes();
+        let sec = date.getSeconds();
+        document.querySelector(".time").innerHTML =
+          day + ":" + hour + ":" + min + ":" + sec;
+        document.querySelector(".time2").innerHTML =
+          day + ":" + hour + ":" + min + ":" + sec;
+        document.querySelector(".time3").innerHTML =
+          day + ":" + hour + ":" + min + ":" + sec;
+        document.querySelector(".time4").innerHTML =
+          day + ":" + hour + ":" + min + ":" + sec;
+        document.querySelector(".time5").innerHTML =
+          day + ":" + hour + ":" + min + ":" + sec;
+      }
+
+      setInterval(displayTime, 1000);
+    </script>
   </body>
 </html>
