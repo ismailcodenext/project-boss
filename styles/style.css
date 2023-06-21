@@ -31,7 +31,7 @@
 }
 
 .navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url(../images/burger-menu-left.svg);
 }
 
 .navbar .navbar-toggler {
@@ -42,14 +42,7 @@
   font-family: var(--primary-font) !important;
   color: var(--black) !important;
   margin-left: 10px;
-}
-
-.dropdown:hover > .dropdown-menu {
-  display: block;
-}
-
-.dropdown > .dropdown-toggle:active {
-  pointer-events: none;
+  padding: 20px;
 }
 
 .login-btn a {
@@ -69,6 +62,16 @@
   color: var(--white);
 }
 
+@media screen and (min-width: 990px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .login-btn {
     margin-top: 10px;
@@ -76,6 +79,10 @@
   .login-btn a {
     display: block;
     margin-left: 0;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0px;
   }
 }
 
