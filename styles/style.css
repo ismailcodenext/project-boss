@@ -45,9 +45,9 @@
   padding: 20px;
 }
 
-.dropdown-toggle::after {
+/* .dropdown-toggle::after {
   display: none !important;
-}
+} */
 
 .login-btn a {
   text-decoration: none;
