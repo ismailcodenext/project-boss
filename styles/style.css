@@ -45,6 +45,10 @@
   padding: 20px;
 }
 
+.dropdown-toggle::after {
+  display: none !important;
+}
+
 .login-btn a {
   text-decoration: none;
   color: var(--white);
